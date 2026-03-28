@@ -426,7 +426,7 @@ export default function Home() {
       {/* Header */}
       <header className="bg-slate-800 border-b border-slate-700 px-6 py-3 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="text-2xl">\u{1F549}</div>
+                        <div className="text-2xl">{"\u{1F549}"}</div>
           <div><h1 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Spanda-DAQ</h1><p className="text-xs text-slate-400">LabVIEW-Inspired VI & DAQ Platform</p></div>
         </div>
         <div className="flex items-center gap-4">
